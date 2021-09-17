@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+p {
+  display : inline ;
+}
+input {
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px ;
+
+}
+.Annonsment{
+  display : block ;
+  text-align: center;
+  font-family: 'Lalezar', cursive;
+  font-size: 1rem;
+}
+
+.nav {
+  color: #FF00FF;
+  background-image: linear-gradient(to right, #00FFFF, rgb(255, 255, 0));
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.navP {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Courgette', cursive;
+}
+.base {
+  text-align: center;
+  padding-bottom: 5px;
+  padding: 30px;
+}
+.baseH1 {
+  font-family: 'Lalezar', cursive;
+  font-size: 2rem;
+  text-shadow: 2px 2px #1687a7;
+}
+.baseBN {
+  font-family: 'Lalezar', cursive;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #276678;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #1687a7;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.baseBN:hover {
+  background-color: #276678;
+  color: white;
+}
+.work {
+  font-family: 'Lalezar', cursive;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+.workDiv {
+  margin: auto;
+  padding: 5px;
+  width: 50%;
+}
+.white {
+  width: 40%;
+  height: 50%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 10px;
+}
+.green {
+  border-color: green;
+}
+.red {
+  border-color: red;
+}
+
+h1 {
+  font-family: 'Lalezar', cursive;
+  text-shadow: 1px 2px #1687a7;
+}
+@media screen and (max-width: 700px) {
+  .work {
+    display:block;
+  }
+  .workDiv {
+    width: 90%;
+  }
+}
